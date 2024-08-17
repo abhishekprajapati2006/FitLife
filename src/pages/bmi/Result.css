@@ -1,0 +1,104 @@
+.bmi-result {
+    background-color: #f1f7e4;
+    border-radius: 15px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .bmi-label {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 10px;
+  }
+  
+  .bmi-value {
+    font-size: 36px;
+    color: #4caf50;
+    margin-bottom: 10px;
+  }
+  
+  .bmi-status {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .bmi-status-normal {
+    font-size: 14px;
+    color: #777;
+    margin-right: 10px;
+  }
+  
+  .bmi-scale {
+    display: flex;
+    align-items: center;
+  }
+  
+  .bmi-scale-bar {
+    width: 20px;
+    height: 8px;
+    margin-right: 2px;
+    border-radius: 3px;
+  }
+  
+  .bmi-scale-blue {
+    background-color: #4aa6d4;
+  }
+  
+  .bmi-scale-green {
+    background-color: #4caf50;
+  }
+  
+  .bmi-scale-yellow {
+    background-color: #ffc107;
+  }
+  
+  .bmi-scale-red {
+    background-color: #f44336;
+  }
+  
+  .bmi-info {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .bmi-info-item {
+    text-align: center;
+  }
+  
+  .bmi-info-value {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .bmi-info-label {
+    font-size: 12px;
+    color: #aaa;
+  }
+  
+  .bmi-healthy-weight {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .bmi-close-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .bmi-close-button:hover {
+    background-color: #45a049;
+  }
+  
