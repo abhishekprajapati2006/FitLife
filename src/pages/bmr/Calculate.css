@@ -1,0 +1,50 @@
+.height-selector {
+    background-color: #f8f5f1;
+    border-radius: 15px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .height-label {
+    font-size: 16px;
+    color: #aaa;
+    margin-bottom: 10px;
+  }
+  
+  .height-display {
+    font-size: 36px;
+    color: #d89d37;
+    margin-bottom: 10px;
+  }
+  
+  .height-slider {
+    width: 100%;
+    -webkit-appearance: none;
+    height: 6px;
+    border-radius: 5px;
+    background: #ccc;
+    outline: none;
+    opacity: 0.7;
+    transition: opacity .2s;
+  }
+  
+  .height-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #d89d37;
+    cursor: pointer;
+  }
+  
+  .height-slider::-moz-range-thumb {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #d89d37;
+    cursor: pointer;
+  }
+  
